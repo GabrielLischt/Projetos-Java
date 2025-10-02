@@ -6,11 +6,11 @@ public class CalculadoraDeMediaVetor {
         Scanner leia = new Scanner(System.in);
 
         for(int i=0;i<notas.length;i++){
-            System.out.println("Digite a " + (i+1) + "ª nota: ");
+            System.out.print("Digite a " + (i+1) + "ª nota: ");
             notas[i]= leia.nextDouble();
             media= media+  notas[i]/4;
-        }
-
+        } 
+       
         System.out.printf("A média final é %.2f", media);
         leia.close();
     }
