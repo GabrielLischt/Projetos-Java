@@ -1,3 +1,4 @@
+package ExercíciosPrimitivos;
 public class ExercicioVariaveis{
     public static void main(String[] args) {
 

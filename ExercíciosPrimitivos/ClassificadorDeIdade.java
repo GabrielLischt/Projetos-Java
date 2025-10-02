@@ -1,3 +1,4 @@
+package ExercíciosPrimitivos;
 public class ClassificadorDeIdade{
     public static void main(String[] args) {
         int idade =12;

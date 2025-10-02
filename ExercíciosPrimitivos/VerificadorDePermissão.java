@@ -1,3 +1,4 @@
+package ExercíciosPrimitivos;
 public class VerificadorDePermissão{
     public static void main(String[] args) {
         double altura= 1.61;

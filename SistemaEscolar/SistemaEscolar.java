@@ -1,9 +1,6 @@
+package SistemaEscolar;
 import java.util.Scanner;
-public class Aluno {
-    String nome;
-    int matricula;
-    double notaFinal;
-    
+public class SistemaEscolar {
     public static void main(String[] args) {
         Aluno[] escola = new Aluno[3];
         Scanner leia = new Scanner(System.in);
@@ -21,11 +18,9 @@ public class Aluno {
         } 
         System.out.println("\n---Escola---\n");
         for(int i=0;i<escola.length;i++){
-            System.out.println((i+1)+"º Aluno");
-            System.out.println("Nome: "+escola[i].nome);
-            System.out.println("Matrícula: "+escola[i].matricula);
-            System.out.println("Nota Final: "+escola[i].notaFinal+"\n");
+            escola[i].mostrarDados(i+1);
+            escola[i].verificarAprovacao();
         }
-        leia.close();   
+        leia.close();
     }
 }

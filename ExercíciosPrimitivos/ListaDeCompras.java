@@ -1,3 +1,4 @@
+package ExercíciosPrimitivos;
 import java.util.Scanner;
 public class ListaDeCompras {
     public static void main(String[] args) {

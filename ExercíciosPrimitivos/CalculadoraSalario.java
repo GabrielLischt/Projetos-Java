@@ -1,3 +1,4 @@
+package ExercíciosPrimitivos;
 public class CalculadoraSalario {
     public static void main(String[] args) {
         double salario= 1500;

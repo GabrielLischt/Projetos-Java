@@ -1,3 +1,4 @@
+package ExercíciosPrimitivos;
 public class CalculadoraMedia{
     public static void main(String[] args) {
         double nota1 =9;

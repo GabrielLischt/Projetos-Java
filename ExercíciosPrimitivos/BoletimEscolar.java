@@ -1,3 +1,4 @@
+package ExercíciosPrimitivos;
 import javax.swing.JOptionPane;
 
 public class BoletimEscolar {

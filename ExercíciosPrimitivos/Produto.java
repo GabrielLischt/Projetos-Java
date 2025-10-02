@@ -1,3 +1,4 @@
+package ExercíciosPrimitivos;
 import java.util.Scanner;
 public class Produto {
     String nome;
@@ -6,9 +7,6 @@ public class Produto {
 
     public static void main(String[] args) {
         Produto playstation5slim = new Produto();
-        playstation5slim.nome = "Playstation 5 Slim 1tb";
-        playstation5slim.codigo = 10;
-        playstation5slim.preco = 3600;
         Scanner leia = new Scanner(System.in);
 
         System.out.print("Digite o nome do produto: ");

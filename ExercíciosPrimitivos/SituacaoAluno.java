@@ -1,3 +1,4 @@
+package ExercíciosPrimitivos;
 public class SituacaoAluno {
     public static void main(String[] args) {
         double nota1 =5, nota2=6;

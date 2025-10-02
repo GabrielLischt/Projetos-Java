@@ -1,3 +1,4 @@
+package ExercíciosPrimitivos;
 public class SomadorDeImpares {
     public static void main(String[] args) {
         int soma=0;

@@ -1,3 +1,4 @@
+package ExercíciosPrimitivos;
 public class IdentificadorDeSemestre {
     public static void main(String[] args) {
         int numeroDoMes=12;

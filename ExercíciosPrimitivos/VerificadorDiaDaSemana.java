@@ -1,3 +1,4 @@
+package ExercíciosPrimitivos;
 public class VerificadorDiaDaSemana {
     public static void main(String[] args) {
         int diaDaSemana= 13;
