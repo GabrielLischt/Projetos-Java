@@ -1,4 +1,4 @@
-package Pilha;
+package PilhaFila;
 
 public class Pilha {
     private Pessoa[] elementos;
@@ -10,23 +10,23 @@ public class Pilha {
         this.elementos = new Pessoa[capacidade];
         this.topo = -1;
     }
-    public void push(Pessoa elemento){
+    public void push(Pessoa elemento){//adicionar um elemento na pilha
         if(topo == capacidade -1){
             System.out.println("A pilha está cheia! Não foi possível adicionar a pessoa: " + elemento.getNome());
             return;
         }
         topo++;
         elementos[topo] = elemento;
-        System.out.println("A pessoa: " + elemento.getNome() + " foi adicionada no topo da pilha!");
+        System.out.println("A pessoa: " + elemento.getNome() + " entrou no ônibus!");
     }
-    public Pessoa peek() {
+    public Pessoa peek() {//observar quem está no topo da pilha
         if(isEmpty()){
             System.out.println("A pilha está vazia!");
             return null;
         }
         return elementos[topo];
     }
-    public Pessoa pop() {
+    public Pessoa pop() {//remover um item da pilha(sempre o primeiro elemento)
         if(isEmpty()){
             System.out.println("A pilha está vazia!");
             return null;
@@ -34,7 +34,7 @@ public class Pilha {
         Pessoa p = elementos[topo];
         elementos[topo] = null;
         topo--;
-        System.out.println("A pessoa " + p.getNome() + " foi removida do topo da pilha");
+        System.out.println("A pessoa " + p.getNome() + " sentou no banco do ônibus!");
         return p;
     }
     public boolean isEmpty() { 

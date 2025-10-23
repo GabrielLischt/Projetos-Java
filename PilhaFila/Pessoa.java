@@ -1,4 +1,4 @@
-package Pilha;
+package PilhaFila;
 
 public class Pessoa {
     String nome;
@@ -7,6 +7,7 @@ public class Pessoa {
         this.nome = nome;
         this.idade = idade;
     }
+    
     public String getNome() {
         return nome;
     }
@@ -21,6 +22,6 @@ public class Pessoa {
     }
     @Override
     public String toString(){
-        return "Nome: "+ nome + ", idade: " + idade +"]";
+        return "[Nome: "+ nome + ", idade: " + idade +"]";
     }
 }
